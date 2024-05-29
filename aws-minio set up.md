@@ -1,4 +1,4 @@
-#GNU/Linux/MacOS
+# GNU/Linux/MacOS
 
 mkdir -p ~/minio/data
 docker run \
@@ -11,7 +11,7 @@ docker run \
    quay.io/minio/minio server /data --console-address ":9001"
 
 
-#Windows
+# Windows
 docker run \
    -p 9000:9000 \
    -p 9001:9001 \
