@@ -1,5 +1,5 @@
 # GNU/Linux/MacOS
-
+ 
 mkdir -p ~/minio/data
 docker run \
    -p 9000:9000 \
