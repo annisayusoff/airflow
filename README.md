@@ -8,8 +8,12 @@ In this project, we will demonstrate how to export data from a PostgreSQL databa
 
 https://github.com/annisayusoff/airflow/blob/5f1b6959e96236dd199d6a92fac7b8a6b78a7441/dags/pipeline.py
 
-- You can get the airflow docker-compose from below link:
+- How to run Airflow on Docker container:
 
 https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
 
-(fetching the docker-compose by running **curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.9.1/docker-compose.yaml'**)
+(fetching the docker-compose by running : **curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.9.1/docker-compose.yaml'**)
+
+- How to run the MinIO on Docker container:
+
+https://min.io/docs/minio/container/index.html
