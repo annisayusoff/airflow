@@ -44,7 +44,7 @@ def postgres_to_s3(ds_nodash, next_ds_nodash):
         logging.info(f"Orders file {f.name} has been pushed to S3!")
 
 
-with DAG (dag_id='etl_v02', default_args=default_args, start_date=datetime(2024,5,10), schedule='@yearly') as dag:
+with DAG (dag_id='etl_v02', default_args=default_args, start_date=datetime(2021,5,10), schedule='@daily') as dag:
     task1 = PythonOperator(
         task_id="postgres_to_s3",
         python_callable=postgres_to_s3
